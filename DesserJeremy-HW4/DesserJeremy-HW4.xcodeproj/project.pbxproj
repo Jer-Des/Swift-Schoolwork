@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA83B42B1C76589700546272 /* NewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83B42A1C76589700546272 /* NewNote.swift */; };
+		DA83B42D1C7658B800546272 /* viewNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83B42C1C7658B800546272 /* viewNotes.swift */; };
+		DAD1F8341C750EB600BBDCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1F8331C750EB600BBDCCF /* AppDelegate.swift */; };
+		DAD1F8361C750EB600BBDCCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1F8351C750EB600BBDCCF /* ViewController.swift */; };
+		DAD1F8391C750EB600BBDCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD1F8371C750EB600BBDCCF /* Main.storyboard */; };
+		DAD1F83B1C750EB600BBDCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD1F83A1C750EB600BBDCCF /* Assets.xcassets */; };
+		DAD1F83E1C750EB600BBDCCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD1F83C1C750EB600BBDCCF /* LaunchScreen.storyboard */; };
+		DAD1F8491C750EB600BBDCCF /* DesserJeremy_HW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1F8481C750EB600BBDCCF /* DesserJeremy_HW4Tests.swift */; };
+		DAD1F8541C750EB600BBDCCF /* DesserJeremy_HW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1F8531C750EB600BBDCCF /* DesserJeremy_HW4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD1F8451C750EB600BBDCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD1F8281C750EB600BBDCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD1F82F1C750EB600BBDCCF;
+			remoteInfo = "DesserJeremy-HW4";
+		};
+		DAD1F8501C750EB600BBDCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD1F8281C750EB600BBDCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD1F82F1C750EB600BBDCCF;
+			remoteInfo = "DesserJeremy-HW4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA83B42A1C76589700546272 /* NewNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNote.swift; sourceTree = "<group>"; };
+		DA83B42C1C7658B800546272 /* viewNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewNotes.swift; sourceTree = "<group>"; };
+		DAD1F8301C750EB600BBDCCF /* DesserJeremy-HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesserJeremy-HW4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1F8331C750EB600BBDCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD1F8351C750EB600BBDCCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD1F8381C750EB600BBDCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD1F83A1C750EB600BBDCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD1F83D1C750EB600BBDCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD1F83F1C750EB600BBDCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD1F8441C750EB600BBDCCF /* DesserJeremy-HW4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesserJeremy-HW4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1F8481C750EB600BBDCCF /* DesserJeremy_HW4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesserJeremy_HW4Tests.swift; sourceTree = "<group>"; };
+		DAD1F84A1C750EB600BBDCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD1F84F1C750EB600BBDCCF /* DesserJeremy-HW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesserJeremy-HW4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1F8531C750EB600BBDCCF /* DesserJeremy_HW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesserJeremy_HW4UITests.swift; sourceTree = "<group>"; };
+		DAD1F8551C750EB600BBDCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD1F82D1C750EB600BBDCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F8411C750EB600BBDCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F84C1C750EB600BBDCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD1F8271C750EB600BBDCCF = {
+			isa = PBXGroup;
+			children = (
+				DAD1F8321C750EB600BBDCCF /* DesserJeremy-HW4 */,
+				DAD1F8471C750EB600BBDCCF /* DesserJeremy-HW4Tests */,
+				DAD1F8521C750EB600BBDCCF /* DesserJeremy-HW4UITests */,
+				DAD1F8311C750EB600BBDCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD1F8311C750EB600BBDCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1F8301C750EB600BBDCCF /* DesserJeremy-HW4.app */,
+				DAD1F8441C750EB600BBDCCF /* DesserJeremy-HW4Tests.xctest */,
+				DAD1F84F1C750EB600BBDCCF /* DesserJeremy-HW4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD1F8321C750EB600BBDCCF /* DesserJeremy-HW4 */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1F8331C750EB600BBDCCF /* AppDelegate.swift */,
+				DAD1F8351C750EB600BBDCCF /* ViewController.swift */,
+				DAD1F8371C750EB600BBDCCF /* Main.storyboard */,
+				DA83B42A1C76589700546272 /* NewNote.swift */,
+				DA83B42C1C7658B800546272 /* viewNotes.swift */,
+				DAD1F83A1C750EB600BBDCCF /* Assets.xcassets */,
+				DAD1F83C1C750EB600BBDCCF /* LaunchScreen.storyboard */,
+				DAD1F83F1C750EB600BBDCCF /* Info.plist */,
+			);
+			path = "DesserJeremy-HW4";
+			sourceTree = "<group>";
+		};
+		DAD1F8471C750EB600BBDCCF /* DesserJeremy-HW4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1F8481C750EB600BBDCCF /* DesserJeremy_HW4Tests.swift */,
+				DAD1F84A1C750EB600BBDCCF /* Info.plist */,
+			);
+			path = "DesserJeremy-HW4Tests";
+			sourceTree = "<group>";
+		};
+		DAD1F8521C750EB600BBDCCF /* DesserJeremy-HW4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1F8531C750EB600BBDCCF /* DesserJeremy_HW4UITests.swift */,
+				DAD1F8551C750EB600BBDCCF /* Info.plist */,
+			);
+			path = "DesserJeremy-HW4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD1F82F1C750EB600BBDCCF /* DesserJeremy-HW4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1F8581C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4" */;
+			buildPhases = (
+				DAD1F82C1C750EB600BBDCCF /* Sources */,
+				DAD1F82D1C750EB600BBDCCF /* Frameworks */,
+				DAD1F82E1C750EB600BBDCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesserJeremy-HW4";
+			productName = "DesserJeremy-HW4";
+			productReference = DAD1F8301C750EB600BBDCCF /* DesserJeremy-HW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD1F8431C750EB600BBDCCF /* DesserJeremy-HW4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1F85B1C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4Tests" */;
+			buildPhases = (
+				DAD1F8401C750EB600BBDCCF /* Sources */,
+				DAD1F8411C750EB600BBDCCF /* Frameworks */,
+				DAD1F8421C750EB600BBDCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD1F8461C750EB600BBDCCF /* PBXTargetDependency */,
+			);
+			name = "DesserJeremy-HW4Tests";
+			productName = "DesserJeremy-HW4Tests";
+			productReference = DAD1F8441C750EB600BBDCCF /* DesserJeremy-HW4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD1F84E1C750EB600BBDCCF /* DesserJeremy-HW4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1F85E1C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4UITests" */;
+			buildPhases = (
+				DAD1F84B1C750EB600BBDCCF /* Sources */,
+				DAD1F84C1C750EB600BBDCCF /* Frameworks */,
+				DAD1F84D1C750EB600BBDCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD1F8511C750EB600BBDCCF /* PBXTargetDependency */,
+			);
+			name = "DesserJeremy-HW4UITests";
+			productName = "DesserJeremy-HW4UITests";
+			productReference = DAD1F84F1C750EB600BBDCCF /* DesserJeremy-HW4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD1F8281C750EB600BBDCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JDes;
+				TargetAttributes = {
+					DAD1F82F1C750EB600BBDCCF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DAD1F8431C750EB600BBDCCF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAD1F82F1C750EB600BBDCCF;
+					};
+					DAD1F84E1C750EB600BBDCCF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAD1F82F1C750EB600BBDCCF;
+					};
+				};
+			};
+			buildConfigurationList = DAD1F82B1C750EB600BBDCCF /* Build configuration list for PBXProject "DesserJeremy-HW4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD1F8271C750EB600BBDCCF;
+			productRefGroup = DAD1F8311C750EB600BBDCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD1F82F1C750EB600BBDCCF /* DesserJeremy-HW4 */,
+				DAD1F8431C750EB600BBDCCF /* DesserJeremy-HW4Tests */,
+				DAD1F84E1C750EB600BBDCCF /* DesserJeremy-HW4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD1F82E1C750EB600BBDCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1F83E1C750EB600BBDCCF /* LaunchScreen.storyboard in Resources */,
+				DAD1F83B1C750EB600BBDCCF /* Assets.xcassets in Resources */,
+				DAD1F8391C750EB600BBDCCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F8421C750EB600BBDCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F84D1C750EB600BBDCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD1F82C1C750EB600BBDCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA83B42B1C76589700546272 /* NewNote.swift in Sources */,
+				DAD1F8361C750EB600BBDCCF /* ViewController.swift in Sources */,
+				DA83B42D1C7658B800546272 /* viewNotes.swift in Sources */,
+				DAD1F8341C750EB600BBDCCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F8401C750EB600BBDCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1F8491C750EB600BBDCCF /* DesserJeremy_HW4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1F84B1C750EB600BBDCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1F8541C750EB600BBDCCF /* DesserJeremy_HW4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD1F8461C750EB600BBDCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD1F82F1C750EB600BBDCCF /* DesserJeremy-HW4 */;
+			targetProxy = DAD1F8451C750EB600BBDCCF /* PBXContainerItemProxy */;
+		};
+		DAD1F8511C750EB600BBDCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD1F82F1C750EB600BBDCCF /* DesserJeremy-HW4 */;
+			targetProxy = DAD1F8501C750EB600BBDCCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD1F8371C750EB600BBDCCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD1F8381C750EB600BBDCCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD1F83C1C750EB600BBDCCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD1F83D1C750EB600BBDCCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD1F8561C750EB600BBDCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD1F8571C750EB600BBDCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD1F8591C750EB600BBDCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DesserJeremy-HW4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD1F85A1C750EB600BBDCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DesserJeremy-HW4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD1F85C1C750EB600BBDCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DesserJeremy-HW4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesserJeremy-HW4.app/DesserJeremy-HW4";
+			};
+			name = Debug;
+		};
+		DAD1F85D1C750EB600BBDCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DesserJeremy-HW4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesserJeremy-HW4.app/DesserJeremy-HW4";
+			};
+			name = Release;
+		};
+		DAD1F85F1C750EB600BBDCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DesserJeremy-HW4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DesserJeremy-HW4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAD1F8601C750EB600BBDCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DesserJeremy-HW4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DesserJeremy-HW4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD1F82B1C750EB600BBDCCF /* Build configuration list for PBXProject "DesserJeremy-HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1F8561C750EB600BBDCCF /* Debug */,
+				DAD1F8571C750EB600BBDCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1F8581C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1F8591C750EB600BBDCCF /* Debug */,
+				DAD1F85A1C750EB600BBDCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1F85B1C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1F85C1C750EB600BBDCCF /* Debug */,
+				DAD1F85D1C750EB600BBDCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1F85E1C750EB600BBDCCF /* Build configuration list for PBXNativeTarget "DesserJeremy-HW4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1F85F1C750EB600BBDCCF /* Debug */,
+				DAD1F8601C750EB600BBDCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD1F8281C750EB600BBDCCF /* Project object */;
+}
