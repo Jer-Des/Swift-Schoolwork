@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2FC5121C80E907007EF22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2FC5101C80E907007EF22E /* Main.storyboard */; };
+		DAB71E401C7FE66B005F4C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E3F1C7FE66B005F4C66 /* AppDelegate.swift */; };
+		DAB71E421C7FE66B005F4C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E411C7FE66B005F4C66 /* ViewController.swift */; };
+		DAB71E471C7FE66B005F4C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB71E461C7FE66B005F4C66 /* Assets.xcassets */; };
+		DAB71E4A1C7FE66B005F4C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB71E481C7FE66B005F4C66 /* LaunchScreen.storyboard */; };
+		DAB71E551C7FE66B005F4C66 /* DesserJeremy_HW5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E541C7FE66B005F4C66 /* DesserJeremy_HW5Tests.swift */; };
+		DAB71E601C7FE66B005F4C66 /* DesserJeremy_HW5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E5F1C7FE66B005F4C66 /* DesserJeremy_HW5UITests.swift */; };
+		DAB71E6E1C7FEAF5005F4C66 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E6D1C7FEAF5005F4C66 /* CollectionViewCell.swift */; };
+		DAB71E701C7FFEEC005F4C66 /* rick.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAB71E6F1C7FFEEC005F4C66 /* rick.jpeg */; };
+		DAB71E721C800692005F4C66 /* imageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB71E711C800692005F4C66 /* imageVC.swift */; };
+		DAB71E741C80E5BC005F4C66 /* rick2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAB71E731C80E5BC005F4C66 /* rick2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB71E511C7FE66B005F4C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB71E341C7FE66B005F4C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB71E3B1C7FE66B005F4C66;
+			remoteInfo = "DesserJeremy-HW5";
+		};
+		DAB71E5C1C7FE66B005F4C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB71E341C7FE66B005F4C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB71E3B1C7FE66B005F4C66;
+			remoteInfo = "DesserJeremy-HW5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2FC5111C80E907007EF22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB71E3C1C7FE66B005F4C66 /* DesserJeremy-HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesserJeremy-HW5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB71E3F1C7FE66B005F4C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB71E411C7FE66B005F4C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB71E461C7FE66B005F4C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB71E491C7FE66B005F4C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB71E4B1C7FE66B005F4C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB71E501C7FE66B005F4C66 /* DesserJeremy-HW5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesserJeremy-HW5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB71E541C7FE66B005F4C66 /* DesserJeremy_HW5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesserJeremy_HW5Tests.swift; sourceTree = "<group>"; };
+		DAB71E561C7FE66B005F4C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB71E5B1C7FE66B005F4C66 /* DesserJeremy-HW5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesserJeremy-HW5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB71E5F1C7FE66B005F4C66 /* DesserJeremy_HW5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesserJeremy_HW5UITests.swift; sourceTree = "<group>"; };
+		DAB71E611C7FE66B005F4C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB71E6D1C7FEAF5005F4C66 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DAB71E6F1C7FFEEC005F4C66 /* rick.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rick.jpeg; path = Assets.xcassets/rick.jpeg; sourceTree = "<group>"; };
+		DAB71E711C800692005F4C66 /* imageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageVC.swift; sourceTree = "<group>"; };
+		DAB71E731C80E5BC005F4C66 /* rick2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rick2.jpeg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB71E391C7FE66B005F4C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E4D1C7FE66B005F4C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E581C7FE66B005F4C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB71E331C7FE66B005F4C66 = {
+			isa = PBXGroup;
+			children = (
+				DAB71E3E1C7FE66B005F4C66 /* DesserJeremy-HW5 */,
+				DAB71E531C7FE66B005F4C66 /* DesserJeremy-HW5Tests */,
+				DAB71E5E1C7FE66B005F4C66 /* DesserJeremy-HW5UITests */,
+				DAB71E3D1C7FE66B005F4C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB71E3D1C7FE66B005F4C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB71E3C1C7FE66B005F4C66 /* DesserJeremy-HW5.app */,
+				DAB71E501C7FE66B005F4C66 /* DesserJeremy-HW5Tests.xctest */,
+				DAB71E5B1C7FE66B005F4C66 /* DesserJeremy-HW5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB71E3E1C7FE66B005F4C66 /* DesserJeremy-HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB71E3F1C7FE66B005F4C66 /* AppDelegate.swift */,
+				DAB71E411C7FE66B005F4C66 /* ViewController.swift */,
+				DAB71E711C800692005F4C66 /* imageVC.swift */,
+				DAB71E6D1C7FEAF5005F4C66 /* CollectionViewCell.swift */,
+				DA2FC5101C80E907007EF22E /* Main.storyboard */,
+				DAB71E461C7FE66B005F4C66 /* Assets.xcassets */,
+				DAB71E481C7FE66B005F4C66 /* LaunchScreen.storyboard */,
+				DAB71E4B1C7FE66B005F4C66 /* Info.plist */,
+				DAB71E731C80E5BC005F4C66 /* rick2.jpeg */,
+				DAB71E6F1C7FFEEC005F4C66 /* rick.jpeg */,
+			);
+			path = "DesserJeremy-HW5";
+			sourceTree = "<group>";
+		};
+		DAB71E531C7FE66B005F4C66 /* DesserJeremy-HW5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB71E541C7FE66B005F4C66 /* DesserJeremy_HW5Tests.swift */,
+				DAB71E561C7FE66B005F4C66 /* Info.plist */,
+			);
+			path = "DesserJeremy-HW5Tests";
+			sourceTree = "<group>";
+		};
+		DAB71E5E1C7FE66B005F4C66 /* DesserJeremy-HW5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB71E5F1C7FE66B005F4C66 /* DesserJeremy_HW5UITests.swift */,
+				DAB71E611C7FE66B005F4C66 /* Info.plist */,
+			);
+			path = "DesserJeremy-HW5UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB71E3B1C7FE66B005F4C66 /* DesserJeremy-HW5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB71E641C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5" */;
+			buildPhases = (
+				DAB71E381C7FE66B005F4C66 /* Sources */,
+				DAB71E391C7FE66B005F4C66 /* Frameworks */,
+				DAB71E3A1C7FE66B005F4C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesserJeremy-HW5";
+			productName = "DesserJeremy-HW5";
+			productReference = DAB71E3C1C7FE66B005F4C66 /* DesserJeremy-HW5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB71E4F1C7FE66B005F4C66 /* DesserJeremy-HW5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB71E671C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5Tests" */;
+			buildPhases = (
+				DAB71E4C1C7FE66B005F4C66 /* Sources */,
+				DAB71E4D1C7FE66B005F4C66 /* Frameworks */,
+				DAB71E4E1C7FE66B005F4C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB71E521C7FE66B005F4C66 /* PBXTargetDependency */,
+			);
+			name = "DesserJeremy-HW5Tests";
+			productName = "DesserJeremy-HW5Tests";
+			productReference = DAB71E501C7FE66B005F4C66 /* DesserJeremy-HW5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB71E5A1C7FE66B005F4C66 /* DesserJeremy-HW5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB71E6A1C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5UITests" */;
+			buildPhases = (
+				DAB71E571C7FE66B005F4C66 /* Sources */,
+				DAB71E581C7FE66B005F4C66 /* Frameworks */,
+				DAB71E591C7FE66B005F4C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB71E5D1C7FE66B005F4C66 /* PBXTargetDependency */,
+			);
+			name = "DesserJeremy-HW5UITests";
+			productName = "DesserJeremy-HW5UITests";
+			productReference = DAB71E5B1C7FE66B005F4C66 /* DesserJeremy-HW5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB71E341C7FE66B005F4C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JDes;
+				TargetAttributes = {
+					DAB71E3B1C7FE66B005F4C66 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DAB71E4F1C7FE66B005F4C66 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB71E3B1C7FE66B005F4C66;
+					};
+					DAB71E5A1C7FE66B005F4C66 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB71E3B1C7FE66B005F4C66;
+					};
+				};
+			};
+			buildConfigurationList = DAB71E371C7FE66B005F4C66 /* Build configuration list for PBXProject "DesserJeremy-HW5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB71E331C7FE66B005F4C66;
+			productRefGroup = DAB71E3D1C7FE66B005F4C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB71E3B1C7FE66B005F4C66 /* DesserJeremy-HW5 */,
+				DAB71E4F1C7FE66B005F4C66 /* DesserJeremy-HW5Tests */,
+				DAB71E5A1C7FE66B005F4C66 /* DesserJeremy-HW5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB71E3A1C7FE66B005F4C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB71E4A1C7FE66B005F4C66 /* LaunchScreen.storyboard in Resources */,
+				DA2FC5121C80E907007EF22E /* Main.storyboard in Resources */,
+				DAB71E471C7FE66B005F4C66 /* Assets.xcassets in Resources */,
+				DAB71E701C7FFEEC005F4C66 /* rick.jpeg in Resources */,
+				DAB71E741C80E5BC005F4C66 /* rick2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E4E1C7FE66B005F4C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E591C7FE66B005F4C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB71E381C7FE66B005F4C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB71E721C800692005F4C66 /* imageVC.swift in Sources */,
+				DAB71E421C7FE66B005F4C66 /* ViewController.swift in Sources */,
+				DAB71E401C7FE66B005F4C66 /* AppDelegate.swift in Sources */,
+				DAB71E6E1C7FEAF5005F4C66 /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E4C1C7FE66B005F4C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB71E551C7FE66B005F4C66 /* DesserJeremy_HW5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB71E571C7FE66B005F4C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB71E601C7FE66B005F4C66 /* DesserJeremy_HW5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB71E521C7FE66B005F4C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB71E3B1C7FE66B005F4C66 /* DesserJeremy-HW5 */;
+			targetProxy = DAB71E511C7FE66B005F4C66 /* PBXContainerItemProxy */;
+		};
+		DAB71E5D1C7FE66B005F4C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB71E3B1C7FE66B005F4C66 /* DesserJeremy-HW5 */;
+			targetProxy = DAB71E5C1C7FE66B005F4C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2FC5101C80E907007EF22E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2FC5111C80E907007EF22E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB71E481C7FE66B005F4C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB71E491C7FE66B005F4C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB71E621C7FE66B005F4C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB71E631C7FE66B005F4C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB71E651C7FE66B005F4C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DesserJeremy-HW5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB71E661C7FE66B005F4C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DesserJeremy-HW5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB71E681C7FE66B005F4C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DesserJeremy-HW5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesserJeremy-HW5.app/DesserJeremy-HW5";
+			};
+			name = Debug;
+		};
+		DAB71E691C7FE66B005F4C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DesserJeremy-HW5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesserJeremy-HW5.app/DesserJeremy-HW5";
+			};
+			name = Release;
+		};
+		DAB71E6B1C7FE66B005F4C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DesserJeremy-HW5UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DesserJeremy-HW5";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB71E6C1C7FE66B005F4C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DesserJeremy-HW5UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CS.DesserJeremy-HW5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DesserJeremy-HW5";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB71E371C7FE66B005F4C66 /* Build configuration list for PBXProject "DesserJeremy-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB71E621C7FE66B005F4C66 /* Debug */,
+				DAB71E631C7FE66B005F4C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB71E641C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB71E651C7FE66B005F4C66 /* Debug */,
+				DAB71E661C7FE66B005F4C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB71E671C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB71E681C7FE66B005F4C66 /* Debug */,
+				DAB71E691C7FE66B005F4C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB71E6A1C7FE66B005F4C66 /* Build configuration list for PBXNativeTarget "DesserJeremy-HW5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB71E6B1C7FE66B005F4C66 /* Debug */,
+				DAB71E6C1C7FE66B005F4C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB71E341C7FE66B005F4C66 /* Project object */;
+}

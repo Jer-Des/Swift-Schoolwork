@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cs3200hw1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking Good Today!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kw5-TF-D9O">
+                                <rect key="frame" x="118" y="117" width="365.5" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rg-TU-Y85">
+                                <rect key="frame" x="279" y="287" width="42" height="30"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" red="0.017295853729787147" green="1" blue="0.023415842942367315" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="greenPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6JS-fb-Myd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uj7-37-huH">
+                                <rect key="frame" x="285" y="249" width="31" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleColor" red="0.00040475297272257738" green="0.030549035174390338" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bluePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFm-aX-A4h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmO-BD-wak">
+                                <rect key="frame" x="277.5" y="325" width="45" height="30"/>
+                                <state key="normal" title="Purple">
+                                    <color key="titleColor" red="0.56368894294529159" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="purplePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPq-9y-YID"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHl-88-GaF">
+                                <rect key="frame" x="274.5" y="363" width="51" height="30"/>
+                                <state key="normal" title="Orange">
+                                    <color key="titleColor" red="1" green="0.47928534828837366" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="orangePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hA6-eR-89E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axm-Bb-2pV">
+                                <rect key="frame" x="257" y="401" width="86" height="30"/>
+                                <state key="normal" title="Change Text">
+                                    <color key="titleColor" red="0.71095795157068065" green="0.18769965278138431" blue="0.52634266570202493" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="textChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V2v-rz-ggD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdL-rs-6qS">
+                                <rect key="frame" x="251" y="439" width="98" height="30"/>
+                                <state key="normal" title="Random Color">
+                                    <color key="titleColor" red="0.71095795157068065" green="0.18769965278138431" blue="0.52634266570202493" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dc3-Xh-m6u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6se-Xe-dzq">
+                                <rect key="frame" x="285" y="211" width="30" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.12253965599820571" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="redPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUD-LL-8bD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1912172796212509" green="0.7687789389737939" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kw5-TF-D9O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1KC-mE-bbD"/>
+                            <constraint firstItem="axm-Bb-2pV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2k6-jp-94g"/>
+                            <constraint firstItem="kw5-TF-D9O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="IqD-Lu-GfT"/>
+                            <constraint firstItem="uj7-37-huH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MaC-4G-gOp"/>
+                            <constraint firstItem="axm-Bb-2pV" firstAttribute="top" secondItem="EHl-88-GaF" secondAttribute="bottom" constant="8" id="NBy-wz-NvB"/>
+                            <constraint firstItem="6se-Xe-dzq" firstAttribute="top" secondItem="kw5-TF-D9O" secondAttribute="bottom" constant="47" id="Ws7-Uz-XnV"/>
+                            <constraint firstItem="5rg-TU-Y85" firstAttribute="top" secondItem="uj7-37-huH" secondAttribute="bottom" constant="8" id="bDF-G1-VVr"/>
+                            <constraint firstItem="EHl-88-GaF" firstAttribute="top" secondItem="qmO-BD-wak" secondAttribute="bottom" constant="8" id="ivR-8k-DAU"/>
+                            <constraint firstItem="uj7-37-huH" firstAttribute="top" secondItem="6se-Xe-dzq" secondAttribute="bottom" constant="8" id="jey-Sy-QjG"/>
+                            <constraint firstItem="6se-Xe-dzq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kVQ-Vx-Lsi"/>
+                            <constraint firstItem="qmO-BD-wak" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lzI-0x-QKi"/>
+                            <constraint firstItem="PdL-rs-6qS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mzv-OW-tyt"/>
+                            <constraint firstItem="EHl-88-GaF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vvj-hZ-fOT"/>
+                            <constraint firstItem="qmO-BD-wak" firstAttribute="top" secondItem="5rg-TU-Y85" secondAttribute="bottom" constant="8" id="y1j-vX-dlm"/>
+                            <constraint firstItem="5rg-TU-Y85" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yjV-ex-bSD"/>
+                            <constraint firstItem="PdL-rs-6qS" firstAttribute="top" secondItem="axm-Bb-2pV" secondAttribute="bottom" constant="8" id="zKw-L0-hgG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueB" destination="uj7-37-huH" id="qWp-hZ-VNA"/>
+                        <outlet property="changeB" destination="axm-Bb-2pV" id="u1I-Xn-w0b"/>
+                        <outlet property="greenB" destination="5rg-TU-Y85" id="OVI-5v-1Ak"/>
+                        <outlet property="myLabel" destination="kw5-TF-D9O" id="1yu-QV-ZN4"/>
+                        <outlet property="orangeB" destination="EHl-88-GaF" id="4Wd-MF-Q4q"/>
+                        <outlet property="purpleB" destination="qmO-BD-wak" id="2wS-VD-3uI"/>
+                        <outlet property="randomB" destination="PdL-rs-6qS" id="Sjr-9b-gyx"/>
+                        <outlet property="redB" destination="6se-Xe-dzq" id="XBE-70-jlf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="307"/>
+        </scene>
+    </scenes>
+</document>
